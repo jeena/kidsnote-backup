@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+Pillow = "*"
+piexif = "*"
+requests = "*"
+python-dotenv = "*"
+selenium = "*"
+setuptools = "*"
+blinker = "<1.5"
+selenium-wire = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.13"
