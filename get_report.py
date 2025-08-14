@@ -44,7 +44,7 @@ driver.find_element(By.NAME, "password").send_keys(PASSWORD)
 driver.find_element(By.CSS_SELECTOR, "button[type='submit']").click()
 
 # Wait for login to process (adjust if needed)
-time.sleep(3)
+time.sleep(4)
 
 child_id = extract_child_id_from_requests(driver.requests)
 report_url = f"https://www.kidsnote.com/api/v1_2/children/{child_id}/reports/?page_size=5000"
