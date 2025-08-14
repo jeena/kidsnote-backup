@@ -34,3 +34,7 @@ It assumes you already set up the .env file.
 In the old script you had to get the report manually from the browser.
 I added get_report.py which logs in with a headless chromium browser,
 gets the report for you so it's possible to automate it with cron.
+
+## License
+
+GPL v3
