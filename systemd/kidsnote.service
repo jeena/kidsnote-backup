@@ -1,0 +1,9 @@
+[Unit]
+Description=Download Kidsnote reports and JSON
+Wants=kidsnote.timer
+
+[Service]
+Type=oneshot
+WorkingDirectory=/home/jeena/Projects/kidsnote
+ExecStart=/usr/bin/pipenv run ./get_report.py
+ExecStart=/usr/bin/pipenv run ./report_json_down.py
