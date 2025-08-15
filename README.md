@@ -22,6 +22,7 @@ pipenv install
 
 This will run the script every day at midnight or once you wake up your computer:
 
+1. Change the working directory to where you checked out the code in systemd/kidsnote.service
 1. `cp systemd/kidsnote.service ~/.config/systemd/user/`
 2. `cp systemd/kidsnote.timer ~/.config/systemd/user/`
 3. `systemctl --user daemon-reload`
