@@ -1,3 +1,5 @@
+⚠️ This repository has moved to https://git.jeena.net/jeena/kidsnote-backup
+
 # Kidsnote backup photo extraction
 
 I found the original script here https://gist.github.com/Leuconoe/21f6a07f50389c4de1ec127944af7008
